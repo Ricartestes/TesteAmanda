@@ -36,9 +36,9 @@ body {
 }
 
 .card {
-  background: rgba(0,0,0,0.6);
-  
-  backdrop-filter: blur(10px);
+  background-color: rgba(17, 25, 40, 0.44);
+  backdrop-filter: blur(4px) saturate(100%);
+
 
   width: 370px;
 
@@ -96,15 +96,19 @@ body {
 }
 
 .tabs img {
-  width: 30px;
+  width: 35px;
 }
 
 .card .tabs .tab.selected {
-  background-color: #262626;
+  background: rgba(0,0,0,0.4);
+
+
 }
 
 .card .information-tabs {
-  background-color: #262626;
+  background: rgba(0,0,0,0.4);
+  
+
 }
 
 .information-tabs .information {
