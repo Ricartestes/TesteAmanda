@@ -39,14 +39,12 @@ body {
   background-color: rgba(17, 25, 40, 0.44);
   backdrop-filter: blur(4px) saturate(100%);
 
-
   width: 370px;
 
   border: 2px solid orange;
   border-radius: 10px;
 
   overflow: hidden;
-
 }
 
 .card .my-information img {
@@ -100,15 +98,11 @@ body {
 }
 
 .card .tabs .tab.selected {
-  background: rgba(0,0,0,0.4);
-
-
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .card .information-tabs {
-  background: rgba(0,0,0,0.4);
-  
-
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .information-tabs .information {
@@ -122,7 +116,7 @@ body {
 }
 
 .card .tabs .tab:hover {
-  background-color: #414141;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .information-tabs .subtitle {
